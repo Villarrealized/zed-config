@@ -8,7 +8,7 @@ ZED_SOURCE_DIR="/Users/$USER/.config/zed"
 ZED_DEST_DIR="$REPO_DEST_DIR/.config/zed"
 
 # Copy zed config
-rsync -av --exclude='.tmp*' "$ZED_SOURCE_DIR/" "$ZED_DEST_DIR/"
+cp -R "$ZED_SOURCE_DIR/" "$ZED_DEST_DIR/"
 
 # Sync
 cd "$REPO_DEST_DIR"
