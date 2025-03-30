@@ -15,4 +15,4 @@ cp -R "$ZED_SOURCE_DIR/" "$ZED_DEST_DIR/"
 cd "$REPO_DEST_DIR"
 git add .
 git commit -m "Automatic backup $(date)"
-git push origin main
+git push origin master
