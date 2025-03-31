@@ -11,5 +11,11 @@
         "bindings": {
             "space f": "file_finder::Toggle"
         }
+    },
+    {
+        "context": "Editor && vim_mode == insert",
+        "bindings": {
+            "j j": ["workspace::SendKeystrokes", "escape"]
+        }
     }
 ]
