@@ -31,5 +31,8 @@
     },
     "tab_size": 4,
     "vim_mode": true,
-    "relative_line_numbers": false
+    "relative_line_numbers": false,
+    "scrollbar": {
+        "show": "never"
+    }
 }
