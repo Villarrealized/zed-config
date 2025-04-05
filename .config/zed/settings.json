@@ -10,7 +10,7 @@
     "base_keymap": "VSCode",
     "buffer_font_family": "Fira Code",
     "ui_font_size": 16,
-    "buffer_font_size": 16,
+    "buffer_font_size": null,
     "theme": {
         "mode": "system",
         "light": "One Dark",
@@ -19,11 +19,7 @@
     "soft_wrap": "bounded",
     "preferred_line_length": 80,
     "tab_bar": {
-        "show_nav_history_buttons": false
-    },
-    "tabs": {
-        "file_icons": true,
-        "git_status": true
+        "show": false
     },
     "git": {
         "git_gutter": "tracked_files",
