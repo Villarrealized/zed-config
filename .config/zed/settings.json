@@ -26,6 +26,8 @@
         "hunk_style": "staged_hollow"
     },
     "tab_size": 4,
+    "cursor_shape": "block",
+    "cursor_blink": false,
     "vim_mode": true,
     "vim": {
         "use_system_clipboard": "always"
