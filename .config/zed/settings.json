@@ -32,6 +32,7 @@
     "vim": {
         "use_system_clipboard": "always"
     },
+    "hide_mouse_while_typing": true,
     "relative_line_numbers": false,
     "languages": {
         "Python": {
