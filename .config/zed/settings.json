@@ -36,6 +36,9 @@
     "hide_mouse": "on_typing_and_movement",
     "relative_line_numbers": false,
     "languages": {
+        "JavaScript": {
+            "tab_size": 4
+        },
         "Python": {
             "language_servers": ["ruff"],
             "format_on_save": "on",
