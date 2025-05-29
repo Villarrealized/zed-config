@@ -28,7 +28,8 @@
     "preferred_line_length": 120,
     "wrap_guides": [80, 120],
     "tab_bar": {
-        "show": false
+        "show": true,
+        "show_nav_history_buttons": false
     },
     "git": {
         "git_gutter": "tracked_files",
