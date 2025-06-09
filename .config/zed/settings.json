@@ -23,7 +23,7 @@
     "theme": {
         "mode": "system",
         "light": "One Dark",
-        "dark": "Dawnfox"
+        "dark": "One Dark"
     },
     "soft_wrap": "bounded",
     "preferred_line_length": 120,
