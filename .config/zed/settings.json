@@ -12,7 +12,7 @@
         "model_parameters": [],
         "default_model": {
             "provider": "zed.dev",
-            "model": "claude-3-7-sonnet-latest"
+            "model": "claude-sonnet-4"
         },
         "version": "2"
     },
@@ -45,7 +45,7 @@
         "use_system_clipboard": "always"
     },
     "hide_mouse": "on_typing_and_movement",
-    "relative_line_numbers": false,
+    "relative_line_numbers": true,
     "languages": {
         "JavaScript": {
             "tab_size": 4
