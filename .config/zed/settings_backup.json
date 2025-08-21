@@ -7,13 +7,26 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
+    "ssh_connections": [
+    {
+      "host": "casav",
+      "projects": [
+        {
+          "paths": [
+            "/data/rips/rip-movies.sh"
+          ]
+        }
+      ]
+    }
+  ],
     "agent": {
         "default_profile": "ask",
         "model_parameters": [],
         "default_model": {
             "provider": "zed.dev",
             "model": "claude-sonnet-4"
-        }
+        },
+        "version": "2"
     },
     "base_keymap": "VSCode",
     "buffer_font_family": "Fira Code",
@@ -47,17 +60,7 @@
     "relative_line_numbers": true,
     "languages": {
         "JavaScript": {
-            "tab_size": 4,
-            "formatter": [
-                {
-                    "code_actions": {
-                        // Use ESLint's --fix:
-                        "source.fixAll.eslint": true,
-                        // Organize imports on save:
-                        "source.organizeImports": true
-                    }
-                }
-            ]
+            "tab_size": 4
         },
         "Python": {
             "language_servers": ["ruff"],
